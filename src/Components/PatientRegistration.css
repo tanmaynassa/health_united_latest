@@ -1,0 +1,230 @@
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+
+.cont{
+    display: flex;
+    /* margin-bottom: 5vh; */
+
+}
+.cont-label{
+    /* margin-right: 5vw; */
+    width: 20vw;
+    margin: 2vh;
+    color: #0F52BA;
+}
+.right{
+    display: flex;
+    width: 100vw;
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    justify-content: center;
+    padding: 1vw 0;
+}
+
+.cont label input{
+    display: flex;
+    width: 15vw;
+    padding: 1vh 2vh;
+}
+.cont label select{
+    display: flex;
+    width: 17.4vw;
+    padding: 1vh 2vh;
+}
+.formClass button{
+    /* border: 2px solid red; */
+    display: flex;
+    margin: auto;
+    color: white;
+    background-color: #4CAF50;
+    padding: 1vw 2vw;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+}
+.formClass button:hover{
+    cursor: pointer;
+    background-color: #498d4b;
+}
+.formdiv{
+    /* border: 2px solid red; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.form-head{
+    text-align: center;
+    color: #4CAF50;
+    position: relative;
+    right: 18.5vw;
+    margin-top: 10vh;
+}
+
+.header{
+    margin-top: 1.5px;
+    /* background-color: #4CAF50; */
+    /* display: flex; */
+    /* background-color: #4CAF50; */
+    /* border: 2px solid red; */
+}
+.header h1{
+    margin: auto 0;
+    color: #4CAF50;
+    font-size: xxx-large;
+}
+.header img{
+    width: 5vw;
+    height: 5vw;
+    padding: 2vw;
+    /* position: relative; */
+    /* right: 33vw; */
+}
+#logo-main{
+    position: relative;
+    right: 33vw;
+}
+
+#logo-not-main{
+    /* display: none; */
+    border: 0;
+}
+
+.left-head{
+    display: flex;
+    /* width: 90vw; */
+    justify-content: center;
+}
+.left-head h1{
+    font-size: 53px;
+    font-weight: bold;
+    
+}
+
+.navbar{
+   
+    display: flex;
+    justify-content: center;
+    
+    background-color: #4CAF50;
+}
+.navbar h3{
+    margin: 0 1.5vw;
+    padding: 0 2.5vw;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    /* border: 2px solid red; */
+    padding: 8px 22px;
+    border-radius: 11px;
+
+    
+}
+
+.navbar a:hover{
+    background-color: gainsboro;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /* border: 2px solid red; */
+    width: 99vw;
+    color: #4CAF50;
+}
+
+
+@media (max-width: 768px) {
+    .cont {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cont-label {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cont label input, .cont label select {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .cont-label {
+        width: 100%;
+    }
+
+    .formClass button {
+        width: 100%;
+    }
+
+    
+    .header{
+        display: block;
+    }
+
+    .header img {
+        /* display: none; */
+        height: 30vw;
+        width: 30vw;
+
+    }
+    .left-head{
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .navbar h3{
+        font-size: small;
+    }
+    .cont label input{
+        margin: auto;
+        display: flex;
+        width: 50vw;
+        padding: 1vh 2vh;
+    }
+    .cont label select{
+        /* display: flex; */
+        width: 57vw;
+        margin: auto;
+        /* padding: 1vh 2vh; */
+    }
+    .footer {
+        font-size: smaller;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .formClass button{
+        /* border: 2px solid red; */
+        display: flex;
+        margin: auto;
+        color: white;
+        background-color: #4CAF50;
+        padding: 2vw 3vw;
+        font-size: small;
+        width: 30vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+    .formClass button:hover{
+        cursor: none;
+        background-color: #498d4b;
+    }
+
+}
+
